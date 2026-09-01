@@ -27,8 +27,18 @@ void test_get_greeting(void) {
   free(greeting);
 }
 
+void test_get_product(void) {
+    TEST_ASSERT_EQUAL_INT(6, get_product(2,3));
+}
+
+void test_get_incorrect_sum(void) {
+    TEST_ASSERT_NOT_EQUAL(6, get_incorrect_sum(4,2));
+}
+
 int main(void) {
   UNITY_BEGIN();
   RUN_TEST(test_get_greeting);
+  RUN_TEST(test_get_product);
+  RUN_TEST(test_get_incorrect_sum);
   return UNITY_END();
 }

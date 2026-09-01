@@ -9,6 +9,8 @@
  * @return A greeting string.
  */
 char* get_greeting(const char* restrict name);
+int get_product(int num1, int num2);
+int get_incorrect_sum(int num1, int num2);
 
 
 #endif // LAB_H
