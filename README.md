@@ -1,8 +1,8 @@
-# Project X
+# Project 0
 
-- Name: John Doe
-- Email: johndoe@u.boisestate.edu
-- Class: CS123-001
+- Name: Seth McDaniel
+- Email: sethmcdaniel547@u.boisestate.edu
+- Class: CS425-001
 
 ## Known Bugs or Issues
 
